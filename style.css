@@ -137,6 +137,7 @@ header nav ul li a {
     height: 200px;
     width: 200px;
     border: dotted 5px;
+    border-radius: 20px;
 }
 .card-text {
     max-width: 200px;
@@ -146,6 +147,12 @@ header nav ul li a {
 /* section-3 */
 .section-3 {
     background-color: deeppink;
+    display: flex;
+    flex-direction: column;
+}
+cite {
+    background-color: aqua;
+   align-self: end;
 }
 
 /* section-4 */
