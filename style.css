@@ -39,3 +39,19 @@ header nav ul li a {
     background-color: cornflowerblue;
 }
 
+/* section-2 */
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: darkgoldenrod;
+}
+.section-2-a {
+    background-color: crimson;
+}
+.section-2-b {
+    display: flex;
+    background-color: darkslateblue;
+}
+.card {
+    background-color: darksalmon;
+}
