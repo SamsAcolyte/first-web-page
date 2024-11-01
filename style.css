@@ -13,6 +13,11 @@ body {
 .section-0 {
     display: flex;
     flex-direction: column;
+    background-color: greenyellow;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 /* header */
 header {
@@ -29,7 +34,7 @@ header .logo a img {
 }
 header nav {
     background-color: brown;
-    margin-left: auto;
+    /* margin-left: auto; */
 }
 header nav ul {
 display: flex;
