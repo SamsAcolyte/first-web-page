@@ -22,7 +22,7 @@ body {
     /* margin-right: 15vw; */
     gap: 100px;
     /* min-width: 600px; */
-    max-width: 900px;
+    /* max-width: 900px; */
     /* align-items: center; */
 }
 /* header */
@@ -123,6 +123,12 @@ header nav ul li a {
 .section-2-a {
     background-color: crimson;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.note {
+    text-align: end;
+    font-size: x-small;
 }
 .section-2-b {
     display: flex;
@@ -150,6 +156,9 @@ header nav ul li a {
     display: flex;
     flex-direction: column;
 }
+blockquote {
+    font-size: 38px;
+}
 cite {
     background-color: aqua;
    align-self: end;
@@ -159,12 +168,26 @@ cite {
 .section-4 {
     display: flex;
     background-color: forestgreen;
+    gap: 30px;
+    justify-content: center;
 }
 .section-4-a {
     background-color: blueviolet;
+    display: flex;
 }
 .section-4-b {
     background-color: blue;
+    /* align-items: center; */
+}
+.hot {
+    /* text-align: center; */
+}
+.section-4-b button {
+    width: 100px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 17px;
+    
 }
 
 /* footer */
