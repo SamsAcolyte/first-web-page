@@ -60,3 +60,9 @@ header nav ul li a {
 .section-3 {
     background-color: deeppink;
 }
+
+/* section-4 */
+.section-4 {
+    display: flex;
+    background-color: forestgreen;
+}
