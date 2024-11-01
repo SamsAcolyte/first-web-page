@@ -65,6 +65,8 @@ header nav ul li a {
 }
 .section-1-a {
     background-color: chocolate;
+    display: flex;
+    flex-direction: column;
 }
 .section-1-a strong {
     font-size: 48px ;
