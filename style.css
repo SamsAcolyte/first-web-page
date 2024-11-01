@@ -112,4 +112,5 @@ header nav ul li a {
 /* footer */
 footer {
     background-color: aqua;
+    flex-shrink: 0;
 }
