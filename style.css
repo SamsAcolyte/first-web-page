@@ -66,3 +66,14 @@ header nav ul li a {
     display: flex;
     background-color: forestgreen;
 }
+.section-4-a {
+    background-color: blueviolet;
+}
+.section-4-b {
+    background-color: blue;
+}
+
+/* footer */
+footer {
+    background-color: aqua;
+}
