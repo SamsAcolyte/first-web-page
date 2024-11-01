@@ -9,3 +9,7 @@ body {
     flex-direction: column;
 }
 /* header */
+header {
+    display: flex;
+    background-color: aqua;
+}
