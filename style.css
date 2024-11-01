@@ -19,6 +19,7 @@ body {
     margin-left: 15vw;
     margin-right: 15vw;
     gap: 100px;
+    min-width: 600px;
 }
 /* header */
 header {
@@ -62,17 +63,36 @@ header nav ul li a {
     display: flex;
     background-color: chartreuse;
     min-height: 40vh;
+    justify-content: space-between;
 }
 .section-1-a {
     background-color: chocolate;
     display: flex;
     flex-direction: column;
+    max-width: 400px;
 }
 .section-1-a strong {
     font-size: 48px ;
 }
+.section-1-a button {
+    width: 80px;
+    height: 35px;
+    font-size: 18px;
+}
+
 .section-1-b {
     background-color: cornflowerblue;
+    display: flex;
+    justify-content: end;
+}
+
+.section-1-b img {
+    max-width: 70%;
+    max-height: auto;
+    border-radius: 70px 0px 0px 70px;
+    min-width: 230px;
+    min-height: auto;
+    object-fit: cover;
 }
 
 /* section-2 */
