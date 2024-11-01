@@ -67,7 +67,7 @@ header nav ul li a {
     display: flex;
     background-color: chartreuse;
     min-height: 40vh;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     /* align-items: center; */
     gap: 100px;
@@ -118,16 +118,29 @@ header nav ul li a {
     display: flex;
     flex-direction: column;
     background-color: darkgoldenrod;
+    /* align-items:space-between; */
 }
 .section-2-a {
     background-color: crimson;
+    text-align: center;
 }
 .section-2-b {
     display: flex;
     background-color: darkslateblue;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .card {
     background-color: darksalmon;
+}
+.card-image img {
+    height: 200px;
+    width: 200px;
+    border: dotted 5px;
+}
+.card-text {
+    max-width: 200px;
+    text-align: center;
 }
 
 /* section-3 */
