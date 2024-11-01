@@ -8,6 +8,12 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+/* section-0 */
+.section-0 {
+    display: flex;
+    flex-direction: column;
+}
 /* header */
 header {
     display: flex;
