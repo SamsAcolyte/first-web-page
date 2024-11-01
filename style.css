@@ -12,12 +12,18 @@ body {
 header {
     display: flex;
     background-color: aqua;
+    max-height: 10vh;
 }
 header .logo {
     background-color: blueviolet;
 }
+header .logo a img {
+    max-height: 100%;
+    width: auto;
+}
 header nav {
     background-color: brown;
+    margin-left: auto;
 }
 header nav ul {
 display: flex;
