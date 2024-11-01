@@ -26,3 +26,16 @@ list-style: none;
 header nav ul li a {
     text-decoration: none;
 }
+
+/* section-1 */
+.section-1 {
+    display: flex;
+    background-color: chartreuse;
+}
+.section-1-a {
+    background-color: chocolate;
+}
+.section-1-b {
+    background-color: cornflowerblue;
+}
+
