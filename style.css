@@ -14,8 +14,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: greenyellow;
-    /* justify-content: center; */
-    /* align-items: center; */
     margin-left: 15vw;
     margin-right: 15vw;
 }
@@ -23,7 +21,7 @@ body {
 header {
     display: flex;
     background-color: aqua;
-    max-height: 10vh;
+    max-height: 70px;
 }
 header .logo {
     background-color: blueviolet;
