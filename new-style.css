@@ -118,6 +118,8 @@ strong {
     background-color: chartreuse;
     display: flex;
     flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .section-2-a {
@@ -158,6 +160,8 @@ strong {
     display: flex;
     flex-direction: column;
     /* flex: 1; */
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 blockquote {
@@ -173,10 +177,32 @@ cite {
     background-color: blue;
     display: flex;
     /* flex: 1; */
+    justify-content: center;
+    gap: 30px;
 }
+.section-4-a {
+    background-color: blueviolet;
+    display: flex;
+}
+.section-4-b {
+    background-color: blue;
+    /* align-items: center; */
+}
+.hot {
+    /* text-align: center; */
+}
+.section-4-b button {
+    width: 100px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 17px;
+    
+}
+
 
 
 /* footer */
 footer {
     background-color: darkolivegreen;
+    text-align: center;
 }
