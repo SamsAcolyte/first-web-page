@@ -9,8 +9,8 @@ body {
     background-color: aqua;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    flex: 1;
+    /* align-items: center; */
+    /* flex: 1; */
     font-size: 20px;
 }
 
@@ -19,7 +19,39 @@ body {
 header {
     background-color: blueviolet;
     display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 10%;
 }
+header .logo {
+    display: flex;
+    background-color: blueviolet;
+}
+header .logo a {
+    display: flex;
+    align-items: center;
+}
+header .logo a img {
+    max-height: 80%;
+    width: auto;
+}
+header nav {
+    background-color: brown;
+    display: flex;
+    align-items: center;
+}
+header nav ul {
+display: flex;
+list-style: none;
+gap: 16px;
+}
+header nav ul li {
+    background-color:aqua;
+}
+header nav ul li a {
+    text-decoration: none;
+}
+
 
 /* section-1 */
 
